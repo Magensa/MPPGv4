@@ -12,20 +12,32 @@
 - P/N 998200263: [Magensa Payment Protection Gateway version 4.0 | MPPG 4.0 Operations | Programmer's Reference Manual](https://www.magtek.com/Content/DocumentationFiles/D998200263.pdf)
 - P/N D998200349: [Magensa Payment Protection Gateway (MPPGv4 and v3) | EMV (chip card) Acceptance | Integration Guide](https://www.magtek.com/content/documentationfiles/d998200349.pdf)
 - P/N D998200457: [Sample MPPGv4 XML/SOAP requests](https://www.magtek.com/Content/SoftwarePackages/D998200457.zip)
-- MPPG service links:
-  - XML
-    - Link: [URL for MPPG Web Service v4](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc)
-    - Link: [WSDL for MPPG Web Service v4](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc?WSDL)
-    - Link: [URI for ProcessData](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessData)
-    - Link: [URI for ProcessReferenceID](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessReferenceID)
-    - Link: [URI for ProcessToken](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessToken)
-  - JSON
-    - Link: [JSON help for MPPG web service v4](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/help)
-    - Link: [URI for ProcessData](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessData)
-    - Link: [URI for ProcessReferenceID](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessReferenceID)
-    - Link: [URI for ProcessToken](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessToken)
 - Link: [MPPGv4 documents and code samples on Github](https://github.com/Magensa/MPPGv4/tree/master)
-
+- MPPG service links:
+  - Azure
+    - XML
+      - Link: [URL for MPPG Web Service v4](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc)
+      - Link: [WSDL for MPPG Web Service v4](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc?WSDL)
+      - Link: [URI for ProcessData](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessData)
+      - Link: [URI for ProcessReferenceID](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessReferenceID)
+      - Link: [URI for ProcessToken](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessToken)
+    - JSON
+      - Link: [JSON help for MPPG web service v4](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/help)
+      - Link: [URI for ProcessData](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/ProcessData)
+      - Link: [URI for ProcessReferenceID](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/ProcessReferenceID)
+      - Link: [URI for ProcessToken](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/ProcessToken)
+  - LAX
+    - XML
+      - Link: [URL for MPPG Web Service v4](https://mppg.magensa.net/v4/MPPGv4Service.svc)
+      - Link: [WSDL for MPPG Web Service v4](https://mppg.magensa.net/v4/MPPGv4Service.svc?WSDL)
+      - Link: [URI for ProcessData](https://mppg.magensa.net/v4/MPPGv4Service.svc/ProcessData)
+      - Link: [URI for ProcessReferenceID](https://mppg.magensa.net/v4/MPPGv4Service.svc/ProcessReferenceID)
+      - Link: [URI for ProcessToken](https://mppg.magensa.net/v4/MPPGv4Service.svc/ProcessToken)
+    - JSON
+      - Link: [JSON help for MPPG web service v4](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/help)
+      - Link: [URI for ProcessData](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessData)
+      - Link: [URI for ProcessReferenceID](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessReferenceID)
+      - Link: [URI for ProcessToken](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessToken)
 
 ## B. MPPG AND ALTERNATIVE PAYMENTS
 
@@ -37,11 +49,19 @@
 
 - In-app payments
   - Apple Pay
-    - Link: [XML/SOAP URI for MPPGv4 API method ProcessInAppApplePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessInAppApplePay)
-    - Link: [JSON/REST URI for MPPGv4 API method ProcessInAppApplePay](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessInAppApplePay)
+    - AZURE
+      - Link: [XML/SOAP URI for MPPGv4 API method ProcessInAppApplePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessInAppApplePay)
+      - Link: [JSON/REST URI for MPPGv4 API method ProcessInAppApplePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/ProcessInAppApplePay)
+    - LAX
+      - Link: [XML/SOAP URI for MPPGv4 API method ProcessInAppApplePay](https://mppg.magensa.net/V4/MPPGv4Service.svc/ProcessInAppApplePay)
+      - Link: [JSON/REST URI for MPPGv4 API method ProcessInAppApplePay](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessInAppApplePay)
   - Google Pay
-    - Link: [XML/SOAP URI for MPPGv4 API method ProcessGooglePay](http://www.magensa.net/MPPGv4/IMPPGv4Service/ProcessGooglePay)
-    - Link: [JSON/REST URI for MPPGv4 API method ProcessGooglePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/ProcessGooglePay)
+    - AZURE
+      - Link: [XML/SOAP URI for MPPGv4 API method ProcessGooglePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessGooglePay)
+      - Link: [JSON/REST URI for MPPGv4 API method ProcessGooglePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/JSON/ProcessGooglePay)
+    - LAX
+      - Link: [XML/SOAP URI for MPPGv4 API method ProcessGooglePay](https://mppg.magensa.net/V4/MPPGv4Service.svc/ProcessGooglePay)
+      - Link: [JSON/REST URI for MPPGv4 API method ProcessGooglePay](https://mppg.magensa.net/V4/MPPGv4Service.svc/JSON/ProcessGooglePay)
   - PayPal/Venmo
     - P/N D998200515: [MPPG v3.0 and v4.0 | PayPal/Venmo API | Developer Program Manual](https://www.magtek.com/content/documentationfiles/d998200515.pdf)
     - Link: [PayPal/Venmo demo page](https://demo.magensa.net/tec/paypal-venmo/paypal-venmo-request)
@@ -88,10 +108,12 @@ In order to use TokenExchange Connect and MPPG together, your Magensa credential
 ## C. MPPG PORTAL SERVICES
 
 - MPPGv2 Portal Service API
-  - Link: [URL for MPPG Portal Service v2 (svc1.magensa.net)](https://svc1.magensa.net/MPPGv2Portal/MPPGv2PortalService.svc)
-  - Link: [WSDL for MPPG Portal Service v2 (svc1.magensa.net)](https://svc1.magensa.net/MPPGv2Portal/MPPGv2PortalService.svc?WSDL)
-  - Link: [URL for MPPG Portal Service v2 (mppg.magensa.net)](https://mppg.magensa.net/v2Portal/MPPGv2PortalService.svc)
-  - Link: [WSDL for MPPG Portal Service v2 (mppg.magensa.net)](https://mppg.magensa.net/v2Portal/MPPGv2PortalService.svc?WSDL)
+  - Azure:
+    - Link: [URL for MPPG Portal Service v2 (svc1.magensa.net)](https://svc1.magensa.net/MPPGv2Portal/MPPGv2PortalService.svc)
+    - Link: [WSDL for MPPG Portal Service v2 (svc1.magensa.net)](https://svc1.magensa.net/MPPGv2Portal/MPPGv2PortalService.svc?WSDL)
+  - LAX:
+    - Link: [URL for MPPG Portal Service v2 (mppg.magensa.net)](https://mppg.magensa.net/v2Portal/MPPGv2PortalService.svc)
+    - Link: [WSDL for MPPG Portal Service v2 (mppg.magensa.net)](https://mppg.magensa.net/v2Portal/MPPGv2PortalService.svc?WSDL)
   - P/N D998200216: [Magensa Web Services | Portal Service | MPPGv2 Portal Service Programmer's Reference Manual](https://www.magtek.com/content/documentationfiles/d998200216.pdf)
 - Magensa Reseller Portal
   - Link: [MPPG Reseller Portal](https://reseller.magensa.net/Account/SignIn)
