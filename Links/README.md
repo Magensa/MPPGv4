@@ -48,6 +48,7 @@
   - Google Pay -- NFC taps from devices with Google Pay are handled by NFC-enabled MagTek readers like any other contactless card
 
 - In-app payments
+  - P/N D998200516: [Mobile App Payments | Google Pay and Apple Pay, In-app and In-Web | Magensa Services Developer Program Manual](https://www.magtek.com/content/documentationfiles/d998200516.pdf)
   - Apple Pay
     - AZURE
       - Link: [XML/SOAP URI for MPPGv4 API method ProcessInAppApplePay](https://svc1.magensa.net/MPPGv4/MPPGv4Service.svc/ProcessInAppApplePay)
@@ -67,7 +68,7 @@
     - Link: [PayPal/Venmo demo page](https://demo.magensa.net/tec/paypal-venmo/paypal-venmo-request)
 
 - Web app payments
-  - Apple Pay
+  - P/N D998200516: [Mobile App Payments | Google Pay and Apple Pay, In-app and In-Web | Magensa Services Developer Program Manual]  - Apple Pay
     - Link: [TokenExchange Connect / Apple Pay demo page](https://demo.magensa.net/tec/tec-apple-pay/apple-pay-button)
   - Google Pay
     - Link: [TokenExchange Connect / Google Pay demo page](https://demo.magensa.net/tec/tec-google-pay/)
