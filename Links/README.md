@@ -68,7 +68,7 @@
     - Link: [PayPal/Venmo demo page](https://demo.magensa.net/tec/paypal-venmo/paypal-venmo-request)
 
 - Web app payments
-  - P/N D998200516: [Mobile App Payments | Google Pay and Apple Pay, In-app and In-Web | Magensa Services Developer Program Manual]  - Apple Pay
+  - P/N D998200516: [Mobile App Payments | Google Pay and Apple Pay, In-app and In-Web | Magensa Services Developer Program Manual](https://www.magtek.com/content/documentationfiles/d998200516.pdf)
     - Link: [TokenExchange Connect / Apple Pay demo page](https://demo.magensa.net/tec/tec-apple-pay/apple-pay-button)
   - Google Pay
     - Link: [TokenExchange Connect / Google Pay demo page](https://demo.magensa.net/tec/tec-google-pay/)
